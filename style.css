@@ -22,8 +22,37 @@ h3 {
   background-color: #556b2f;
 }
 
+.nav-link {
+  padding: 4px 8px;
+  color: black;
+}
+
+.nav-link:hover {
+  color: black;
+  background-color: #696969;
+}
+
+.nav-link:active {
+  color: white;
+  background-color: #778899;
+}
+.nav-link + .nav-link {
+  margin-left: 16px;
+}
 .main {
   max-width: 800px;
   margin: 0 auto;
   padding: 16px;
+}
+
+.main > * + * {
+  margin-top: 48px;
+}
+
+.main > * {
+  border-top: 2px solid grey;
+}
+
+.main > *:first-child {
+  border-top: none;
 }
