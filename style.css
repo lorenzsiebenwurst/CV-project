@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+.header {
+  padding: 48px 16px;
+  text-align: center;
+  background-color: #556b2f;
+}
+
+.main {
+  max-width: 800px;
+  margin: 0 auto;
+}
