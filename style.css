@@ -56,3 +56,12 @@ h3 {
 .main > *:first-child {
   border-top: none;
 }
+
+*::selection {
+  color: white;
+  background-color: black;
+}
+
+.profession::after {
+  content: " 🕴️";
+}
