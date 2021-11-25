@@ -65,3 +65,11 @@ h3 {
 .profession::after {
   content: " 🕴️";
 }
+
+.experience-heading {
+  display: inline-block;
+}
+
+.experience-subheading {
+  display: inline-block;
+}
