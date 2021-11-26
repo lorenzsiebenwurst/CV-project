@@ -1,4 +1,6 @@
-* {
+*,
+*:before,
+*:after {
   box-sizing: border-box;
 }
 
@@ -21,7 +23,7 @@ h3 {
   padding: 3rem 1rem;
   padding-top: 4.5rem;
   text-align: center;
-  background-color: #556b2f;
+  background-image: linear-gradient(235deg, snow, #556b2f);
   position: relative;
 }
 
@@ -44,12 +46,11 @@ h3 {
 
 .nav-link:hover {
   color: black;
-  background-color: #696969;
+  background-color: #556b2f;
 }
 
 .nav-link:active {
-  color: white;
-  background-color: #778899;
+  background-color: #3c4d1f;
 }
 
 @media screen and (min-width: 768px) {
@@ -69,7 +70,7 @@ h3 {
 }
 
 .main > * {
-  border-top: 0.125rem solid grey;
+  border-top: 0.125rem solid #556b2f;
   padding: 0 1rem;
 }
 
@@ -97,6 +98,7 @@ h3 {
     flex-direction: row;
     justify-content: space-between;
     align-items: baseline;
+  }
 }
 
 .experience-subheading {
@@ -109,7 +111,7 @@ h3 {
 }
 
 .hire-me {
-  background-color: plum;
+  background-color: #556b2f;
   position: absolute;
   right: 1rem;
   top: 1rem;
@@ -163,4 +165,27 @@ h3 {
     flex-direction: row;
     justify-content: center;
   }
+}
+
+.footer {
+  margin-top: 3rem;
+  background-color: #556b2f;
+  padding: 2rem;
+}
+
+.footer-text {
+  text-align: center;
+  margin: 0;
+}
+
+.footer-link {
+  color: black;
+}
+
+a,
+a:link,
+a:hover,
+a:visited,
+a:active {
+  color: black;
 }
